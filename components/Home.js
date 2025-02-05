@@ -38,7 +38,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('https://mymoviz-backend-opal.vercel.app')
+    fetch('https://mymoviz-backend-ocwzoh1ua-bettycncs-projects.vercel.app')
     .then(response => response.json())
     .then(data => {
       if(data.movies){
